@@ -1,0 +1,26 @@
+# Ignore build outputs
+dist/
+build/
+.next/
+
+# Ignore dependencies
+node_modules/
+.next/
+node_modules
+.next
+
+# Ignore specific config files
+next.config.js
+babel.config.js
+eslint.config.js
+.gitignore
+.prettierrc.js
+.prettierignore
+.jsconfig.js
+
+# Ignore all minified files
+**/*.min.js
+
+# Ignore specific directories
+logs/
+tmp/
